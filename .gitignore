@@ -57,9 +57,3 @@ Temporary Items
 
 # Eslint
 .eslintcache
-
-# Submodules
-apps/*
-!apps/README.md
-packages/*
-!packages/README.md
