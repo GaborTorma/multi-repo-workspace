@@ -33,21 +33,3 @@ GitHub Packages use `npm.pkg.github.com`
   }
 }
 ```
-
-## Add to the poly-repo-manager
-
-```bash
-git add .gitmodules releases/release-name
-git commit -m "releases(add): release-name"
-```
-
-### Example:
-
-Add `releases/release1` to the poly-repo-manager:
-
-```bash
-git add .gitmodules releases/release1
-git commit -m "releases(add): release1"
-```
-
-<span style="color:orange"> ⚠️ **Avoid ignore message!**</span>
