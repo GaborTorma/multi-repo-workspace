@@ -1,0 +1,3 @@
+[submodule "packages/mpr-package1"]
+	path = packages/mpr-package1
+	url = git@github.com:GaborTorma/mpr-package1.git
