@@ -1,3 +1,6 @@
 [submodule "packages/mpr-package1"]
 	path = packages/mpr-package1
 	url = git@github.com:GaborTorma/mpr-package1.git
+[submodule "packages/mpr-package2"]
+	path = packages/mpr-package2
+	url = git@github.com:GaborTorma/mpr-package2.git
