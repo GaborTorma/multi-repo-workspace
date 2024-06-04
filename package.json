@@ -9,6 +9,7 @@
   "keywords": [],
   "main": "index.js",
   "scripts": {
+    "init-submodules": "./.scripts/init-submodules.sh",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "release": "dotenv release-it"
