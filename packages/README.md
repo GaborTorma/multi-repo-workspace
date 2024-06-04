@@ -9,15 +9,17 @@
 Add `git@github.com:GaborTorma/mpr-package1.git` package to `packages/package1` folder:
 
 ```bash
-git submodule add git@github.com:GaborTorma/package1.git packages/package1
+git submodule add --force git@github.com:GaborTorma/package1.git packages/package1
 ```
+
+`--force` need to overwrite gitignore check
 
 ### Example with specific branch:
 
 Add `git@github.com:GaborTorma/mpr-package1.git` package `dev` to `packages/package1` folder:
 
 ```bash
-git submodule add --branch dev git@github.com:GaborTorma/package1.git packages/package1
+git submodule add --force --branch dev git@github.com:GaborTorma/package1.git packages/package1
 ```
 
 ## Publish on GitHub Packages
