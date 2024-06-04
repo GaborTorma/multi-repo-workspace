@@ -6,6 +6,7 @@
     "tagName": "v${version}"
   },
   "github": {
+    "web": true,
     "release": true
   },
   "npm": {
