@@ -7,3 +7,6 @@
 [submodule "apps/mpr-app1"]
 	path = apps/mpr-app1
 	url = git@github.com:GaborTorma/mpr-app1.git
+[submodule "layers/test-layer"]
+	path = layers/test-layer
+	url = https://github.com/GaborTorma/test-layer
